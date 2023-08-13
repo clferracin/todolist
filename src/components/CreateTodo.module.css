@@ -1,0 +1,51 @@
+.createTodo {
+  display: flex;
+  flex-direction: row;
+  gap: .8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.createTodo input {
+  padding: 1.6rem;
+  width: 100%;
+  border-radius: .8rem;
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+  align-items: center;
+
+  color: var(--gray-100);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.24rem;
+
+}
+
+.createTodo input::placeholder {
+  color: var(--gray-300);
+}
+
+
+
+.createTodo a {
+  height: 5.2rem;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  border-radius: .8rem;
+  padding: 1.6rem;
+  font-weight: 700;
+  line-height: 1.96rem;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+
+  transition: color 0.1s, background-color 0.1s;
+}
+
+.createTodo a:hover {
+  background: var(--blue);
+  color: var(--white);
+}

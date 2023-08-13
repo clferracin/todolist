@@ -1,0 +1,42 @@
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.created {
+  display: flex;
+  gap: .8rem;
+}
+
+.created p {
+  color: var(--blue);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+}
+
+.finished {
+  display: flex;
+  gap: .8rem;
+}
+
+.finished p {
+  color: var(--purple);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+}
+
+.span {
+  color: var(--gray-200);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  padding: .2rem .8rem;
+
+  border-radius: 100rem;
+  background: var(--gray-400);
+}

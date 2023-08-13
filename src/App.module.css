@@ -1,0 +1,8 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 73.6rem;
+  margin: -13rem auto 0 auto;
+}

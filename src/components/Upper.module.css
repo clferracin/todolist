@@ -1,0 +1,7 @@
+.upper {
+  display: flex;
+  flex-direction: column;
+  gap: 5.3rem;
+  width: 100%;
+  max-width: 73.6rem;
+}
